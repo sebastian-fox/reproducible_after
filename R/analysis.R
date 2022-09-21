@@ -22,7 +22,6 @@ df <- df |>
 shp_eng <- EnglandFacets::england_shp
 shp_lond <- EnglandFacets::london_shp
 
-
 # separate out London and non-London data
 england_data <- df |> 
         dplyr::filter(code %in% grid_no_london$code,
